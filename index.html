@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>SP Computer Shop</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+        <ul>
+            <li> <a href="#home"> Home </a></li>
+            <li class="menu_bar"> <a href="#" class="dropdown"> Laptop </a>
+            <div class="dropdown_menus">
+                <a href="#">Apple</a>
+                <a href="laptop detail.html">Asus</a>
+                <a href="#">Dell</a>
+                <a href="#">Lenovo</a>
+                <a href="#">HP</a>
+                <a href="#">Acer</a>
+            </div>
+            </li>  
+
+            <li> <a href="#home"> All in one </a></li>
+            <li> <a href="#home"> Desktop </a></li>
+            <li class="menu_bar"> <a href="menu.html" class="dropbtn"> Accessories </a>
+                <div class="dropdown_menus">
+                    <a href="keyboard.html">Keyboard</a>
+                    <a href="#">Headset</a>
+                    <a href="#">Network Tools</a>
+                    <a href="#">SSD</a>
+                    <a href="#">Camera</a>
+                </div>
+                <li> <a href="#home"> Home </a></li>
+                <li class="menu_bar"> <a href="#" class="dropdown"> Laptop </a>
+                <div class="dropdown_menus">
+                    <a href="#">Apple</a>
+                    <a href="laptop detail.html">Asus</a>
+                    <a href="#">Dell</a>
+                    <a href="#">Lenovo</a>
+                    <a href="#">HP</a>
+                    <a href="#">Acer</a>
+                </div>
+                </li>
+                <li> <a href="#home"> Contact Us </a></li>
+        </ul>
+        <img src="../img-web small2.jpg.png" alt="advertise">
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="../img1.png"></div>
+                  <div class="swiper-slide"><img src="../img2.png"></div>
+                  <div class="swiper-slide"><img src="../img3.png"></div>
+                  <div class="swiper-slide"><img src="../img4.png"></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+              </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="card">
+            <div class="product-image">
+              <img src="../img3.png" alt="">
+            </div>
+            <div class="product-info">
+              <h4>Asus Rog</h4>
+              <h4>$1,200</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Add to Card</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="product-image">
+              <img src="../img4.png" alt="">
+            </div>
+            <div class="product-info">
+              <h4>Asus Vivo Book</h4>
+              <h4>$1,200</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Add to Card</button>
+            </div>
+          </div>
+        <div class="card">
+          <div class="product-image">
+            <img src="../img2.png" alt="">
+          </div>
+          <div class="product-info">
+            <h4>Acer</h4>
+            <h4>$700</h4>
+          </div>
+          <div class="btn">
+            <button type="button">Add to Card</button>
+          </div>
+          </div>
+          <div class="card">
+            <div class="product-image">
+              <img src="../l10.png" alt="">
+            </div>
+            <div class="product-info">
+              <h4>ASUS</h4>
+              <h4>$700</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Add to Card</button>
+            </div>
+            </div>
+        </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay:{
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+
+</body>
+</html>
